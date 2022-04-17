@@ -1,4 +1,3 @@
-from tkinter import E
 from flask import Flask, redirect, render_template, request, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user
