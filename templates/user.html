@@ -1,0 +1,13 @@
+<body> 
+  
+    <ul>
+        <li>    {{ user.id }}                                                   </li>
+        <li>    {{ user.name }}                                                 </li>
+        <li>    {{ user.email }}                                                </li>
+    
+
+        <li>    <a href="{{  url_for('deletar', id = user.id) }}">Deletar</a>   </li>  
+    </ul>
+
+</body>
+
